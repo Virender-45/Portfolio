@@ -172,7 +172,8 @@ a {
 .experience {
     width: 60%;
 }
-.ex-info{
+
+.ex-info {
     display: flex;
 }
 
