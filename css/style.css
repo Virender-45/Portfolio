@@ -1,6 +1,6 @@
 .container {
     width: 90%;
-    margin: 0px auto;
+    margin: 40px auto;
 }
 
 /*hero CSS*/
@@ -96,14 +96,14 @@
     color: #222;
 }
 
-.about-header {
+.main-header {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-bottom: 20px;
 }
 
-.about-header h2 {
+.main-header h2 {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -143,4 +143,43 @@
     background: #9b1c2d;
     position: relative;
     right: -22%;
+}
+
+.details1-section {
+    display: flex;
+}
+
+.contact {
+    width: 40%;
+    /* display: flex; */
+}
+
+.det {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: left;
+    color: #000;
+}
+
+.det p,
+a {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.experience {
+    width: 60%;
+}
+.ex-info{
+    display: flex;
+}
+
+.ex-time {
+    width: 20%;
+}
+
+.ex-points {
+    width: 80%;
 }
