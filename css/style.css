@@ -1,0 +1,13 @@
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/*hero CSS*/
+.hero-image {
+    width: 40%;
+}
+
+.hero-name {
+    width: 60%;
+}
