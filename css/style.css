@@ -6,7 +6,7 @@
 /*hero CSS*/
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
 }
@@ -229,4 +229,50 @@ a {
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.features {
+    /* background: #d8192a; */
+    padding: 80px 20px;
+}
+
+.features-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: #b31222;
+    border-radius: 14px;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.feature-card h3 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
